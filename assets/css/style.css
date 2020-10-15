@@ -11,7 +11,7 @@
 }
 
 .bg_grey {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 .float_left {
@@ -28,7 +28,7 @@ header {
 height: 480px;
 }
 
-nav {
+.container {
   width: 80%;
   margin: auto;
 }
@@ -50,8 +50,23 @@ nav {
   padding: 10px;
 }
 
-.header_hero {
+.image_hero {
+  background-image: url(../img/banner_header.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+}
+
+.hero_box {
   height: 400px;
+  position: relative;
+}
+
+.text_hero {
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .bottom_header {
