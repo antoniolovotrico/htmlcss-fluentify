@@ -158,11 +158,12 @@ a:hover {
 
 .col_3 {
   width: 33.33%;
+  position: relative;
 }
 
 .col_2 {
   width: 35%;
-  margin: 30px 70px;
+  margin: 0 70px;
 }
 
 .image {
@@ -177,8 +178,12 @@ a:hover {
   padding: 0 20px;
 }
 
-.col_3 hr{
-  width: 25%;
+.box {
+  width: 70px;
+  border-bottom: 1px solid grey;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .col_3 p {
@@ -186,6 +191,10 @@ a:hover {
   padding: 20px;
   font-weight: 300;
   line-height: 150%;
+}
+
+hr {
+  margin-bottom: 20px;
 }
 
 #mount {
@@ -197,6 +206,7 @@ a:hover {
   font-weight: 400;
   font-size: 32px;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .col_2 p {
@@ -204,12 +214,22 @@ a:hover {
   font-size: 18px;
   color: grey;
   margin-bottom: 20px;
+  line-height: 130%;
 }
 
 .col_2 a {
-  color: lightblue;
+  color: #063768;
+  font-size: 14px;
 }
 
-footer {
+.foot {
   height: 150px;
+}
+
+.title_footer {
+  width: 50%
+}
+
+.title_footer h2 {
+  line-height: 150px;
 }
