@@ -146,15 +146,14 @@ a:hover {
 
 
 .row_1 {
-  height: 300px;
+  height: 470px;
   margin-top: 50px;
   text-align: center;
 }
 
 .row_2 {
-  height: 300px;
+  height: 500px;
   width: 80%;
-  margin: auto;
 }
 
 .col_3 {
@@ -162,12 +161,53 @@ a:hover {
 }
 
 .col_2 {
-  width: 50%;
+  width: 35%;
+  margin: 30px 70px;
 }
 
 .image {
   width: 180px;
   height: 180px;
+  margin-bottom: 20px;
+}
+
+.col_3 h2 {
+  color: limegreen;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+.col_3 hr{
+  width: 25%;
+}
+
+.col_3 p {
+  color: grey;
+  padding: 20px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+#mount {
+  width: 450px;
+  height: 450px;
+}
+
+.col_2 h2 {
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.col_2 p {
+  font-weight: 400;
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.col_2 a {
+  color: lightblue;
 }
 
 footer {
