@@ -147,8 +147,8 @@ a:hover {
 
 .row_1 {
   height: 300px;
-  width: 80%;
-  margin: auto;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .row_2 {
@@ -163,6 +163,11 @@ a:hover {
 
 .col_2 {
   width: 50%;
+}
+
+.image {
+  width: 180px;
+  height: 180px;
 }
 
 footer {
